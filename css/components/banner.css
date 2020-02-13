@@ -1,0 +1,37 @@
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1497079647518-6080ac21f0db);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.container > h1 {
+  color: white;
+}
+
+.container > p {
+  color: white;
+}
+
+
+.btn-white {
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #999999;
+  color: #000000;
+  font-weight: lighter;
+  padding: 15px 25px;
+  opacity: 0.6;
+  transition: opacity 1s ease;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.btn-white:hover {
+  opacity: 1;
+}
